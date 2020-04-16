@@ -17,7 +17,7 @@ public class LopHoc {
         return 0;
         
     }
-    public int GVGD(GiaoVien gv){
+    public int themGVGD(GiaoVien gv){
         gv1.add(gv);
         return 0;
     }
