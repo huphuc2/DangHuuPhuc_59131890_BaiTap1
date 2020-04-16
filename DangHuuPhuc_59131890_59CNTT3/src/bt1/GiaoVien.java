@@ -9,7 +9,7 @@ package bt1;
  *
  * @author huuph
  */
-public abstract class GiaoVien extends CaNhan {
+public class GiaoVien extends CaNhan {
     private String monDay,toBoMon;
     GiaoVien(String hoten, int tuoi, String DiaChi, String sdt,String monDay,String toBoMon) {
         super(hoten,tuoi,DiaChi,sdt);
@@ -33,7 +33,11 @@ public abstract class GiaoVien extends CaNhan {
     }
     @Override
     public String HienThiTT() {
-        return "Mon Day: "+monDay+"\n"+
+        return "Ho va Ten: "+hoten+"\n"+
+                "Tuoi: "+tuoi+"\n"+
+                "Dia Chi: "+diaChi+"\n"+
+                "So dien thoai: "+sdt+"\n"+
+                "Mon Day: "+monDay+"\n"+
                "To Bo Mon: "+toBoMon+"\n";
                
     }

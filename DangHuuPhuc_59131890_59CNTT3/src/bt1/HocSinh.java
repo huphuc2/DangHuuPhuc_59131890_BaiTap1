@@ -18,7 +18,11 @@ public class HocSinh extends CaNhan{
     }
     @Override
     public String HienThiTT(){
-        return "Lớp: "+lop+"\n"+
+        return "Ho va Ten: "+hoten+"\n"+
+                "Tuoi: "+tuoi+"\n"+
+                "Dia Chi: "+diaChi+"\n"+
+                "So dien thoai: "+sdt+"\n"+
+                "Lớp: "+lop+"\n"+
                 "Nang Khieu: "+nangKhieu+"\n";
     }
     
